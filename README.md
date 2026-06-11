@@ -114,7 +114,7 @@ cd <your-repo>
 
 Upload `Group8_Final_project_v4.ipynb` to Google Colab, or click the badge below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/<your-repo>/blob/main/Group8_Final_project_v4.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ynhi27/CS189/blob/main/Group8_Final_project_v4.ipynb)
 
 ### 3. Install dependencies
 
