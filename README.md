@@ -1,4 +1,4 @@
-# 🧬 DEG Method Benchmark — ER+/ER− Breast Cancer
+# 🧬 Systematic Benchmarking of Differential Gene Expression Methods for ER Subtype Classification in Breast Cancer with Literature-Aware Candidate Prioritization
 
 <div align="center">
 
