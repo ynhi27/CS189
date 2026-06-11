@@ -106,7 +106,7 @@ This notebook runs on **Google Colab** with a Google Drive mount for caching.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/ynhi27/CS189.git
 cd <your-repo>
 ```
 
