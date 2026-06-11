@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project benchmarks three widely used RNA-seq differential expression methods — **DESeq2**, **edgeR**, and **limma-voom** — on the TCGA-BRCA cohort for ER+/ER− subtype classification.
 
@@ -26,7 +26,7 @@ A **novel contribution** of this work is an automated PubMed literature confiden
 
 ---
 
-## 🏆 Key Results
+## Key Results
 
 | Metric | Value |
 |---|---|
@@ -40,12 +40,12 @@ A **novel contribution** of this work is an automated PubMed literature confiden
 | DESeq2 CV (robustness) | **1.92%** |
 | DESeq2 Jaccard stability | **0.876 ± 0.012** |
 
-> ✅ All known ER markers (ESR1, GATA3, TFF1, XBP1, CDH2) recovered in both methods.  
-> 🎯 **Primary finding:** Class 2 Tier 3 consensus genes — statistically reproducible, not yet studied in ER context.
+> All known ER markers (ESR1, GATA3, TFF1, XBP1, CDH2) recovered in both methods.  
+> **Primary finding:** Class 2 Tier 3 consensus genes — statistically reproducible, not yet studied in ER context.
 
 ---
 
-## 🔬 Pipeline
+## Pipeline
 
 ```
 TCGA-BRCA (GDC API)
@@ -97,7 +97,7 @@ TCGA-BRCA (GDC API)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -149,13 +149,13 @@ if intermediate outputs already exist in Google Drive, they are loaded automatic
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
 ├── Group8_Final_project_v4.ipynb   # Main analysis notebook
 ├── README.md                       # This file
-└── outputs/                        # Generated after running notebook
+└── TCGA_BRCA_Project/              # Generated after running notebook (output folder)
     ├── sample_metadata.csv         # Sample IDs, ER status, condition labels
     ├── count_filtered.parquet      # Filtered count matrix (18,627 × N samples)
     ├── gene_class.csv              # Four-class dysregulation labels per gene
@@ -168,7 +168,7 @@ Re-running the notebook after a cache hit skips expensive API calls automaticall
 
 ---
 
-## 📊 Output Files
+## Output Files
 
 | File | Description |
 |---|---|
@@ -180,7 +180,7 @@ Re-running the notebook after a cache hit skips expensive API calls automaticall
 
 ---
 
-## 🗂️ Methods Summary
+## Methods Summary
 
 <details>
 <summary><strong>DEG Analysis — click to expand</strong></summary>
@@ -223,7 +223,7 @@ Agentic refinement re-queries with expanded aliases for all Class 2 · Tier 3 ge
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - **limma-voom failure:** The `calcNormFactors` function was renamed to `normLibSizes` in edgeR v4, breaking the rpy2 bridge. limma-voom returned 0 DEGs. All consensus analyses use the **DESeq2 ∩ edgeR fallback set**. Fix: implement custom TMM normalization or downgrade edgeR.
 - **Single dataset:** Results are specific to TCGA-BRCA. Generalizability to other cohorts is not established.
@@ -232,19 +232,19 @@ Agentic refinement re-queries with expanded aliases for all Class 2 · Tier 3 ge
 
 ---
 
-## 👥 Team
+## Team
 
 | Member | Sections |
 |---|---|
-| Person 1 | Introduction · Related Work · Conclusion · References |
-| Person 2 | Abstract · Methodology · Limitations & Future Work |
-| Person 3 | Results & Experiments · Discussion |
+| Y Nhi Tran | Introduction · Related Work · Conclusion · References |
+| Yasmeen Soe | Abstract · Methodology · Limitations & Future Work |
+| Katrina Huynh | Results & Experiments · Discussion |
 
 **Group 8** — Final Project, Computational Biology / Bioinformatics
 
 ---
 
-## 📚 References
+## References
 
 Key citations (full list in the paper):
 
@@ -258,6 +258,6 @@ Key citations (full list in the paper):
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic purposes only. Data obtained from TCGA via the GDC API is subject to the [TCGA Data Use Agreement](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga/using-tcga/using-tcga-data).
