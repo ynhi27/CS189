@@ -236,9 +236,9 @@ Agentic refinement re-queries with expanded aliases for all Class 2 · Tier 3 ge
 
 | Member | Sections |
 |---|---|
-| Y Nhi Tran | Introduction · Related Work · Conclusion · References |
-| Yasmeen Soe | Abstract · Methodology · Limitations & Future Work |
-| Katrina Huynh | Results & Experiments · Discussion |
+| Katrina Huynh | Introduction · Related Work · Conclusion · References |
+| Y Nhi Tran | Abstract · Methodology · Limitations & Future Work |
+| Yasmeen Soe | Results & Experiments · Discussion |
 
 **Group 8** — Final Project, Computational Biology / Bioinformatics
 
@@ -248,13 +248,11 @@ Agentic refinement re-queries with expanded aliases for all Class 2 · Tier 3 ge
 
 Key citations (full list in the paper):
 
-- Love et al. (2014). **DESeq2.** *Genome Biology*, 15(12):550.
-- Robinson et al. (2010). **edgeR.** *Bioinformatics*, 26(1):139–140.
-- Law et al. (2014). **limma-voom.** *Genome Biology*, 15(2):R29.
-- Li et al. (2013). Four-class dysregulation framework. *(verify citation)*
-- Perou et al. (2000). Molecular portraits of breast tumours. *Nature*, 406:747–752.
-- Soneson & Delorenzi (2013). DEG method comparison. *BMC Bioinformatics*, 14:91.
-- Schurch et al. (2016). Biological replicates in RNA-seq. *RNA*, 22(6):839–851.
+- Cheang,M.C.U. et al. (2009) Ki67 index, HER2 status, and prognosis. *J. Natl. Cancer Inst.*, **101**, 736–750.
+- Chen,Y., Lun,A.T.L. and Smyth,G.K. (2016) From reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline [version 2; peer review: 5 approved]. *F1000Research*, **5**, 1438.
+- Harbeck,N. et al. (2019) Breast cancer. *Nat. Rev. Dis. Primers*, **5**, 66.
+- Law,C.W. et al. (2014) Voom: precision weights for RNA-seq. *Genome Biol.*, **15**, R29.
+- Li,Q. et al. (2013) Normal-tissue reference design for DEG classification in RNA-seq profiles. *Bioinformatics*, **29**, 2339–2345.
 
 ---
 
