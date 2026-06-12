@@ -240,7 +240,7 @@ Agentic refinement re-queries with expanded aliases for all Class 2 · Tier 3 ge
 | Y Nhi Tran | Abstract · Methodology · Limitations & Future Work |
 | Yasmeen Soe | Results & Experiments · Discussion |
 
-**Group 8** — Final Project, Computational Biology / Bioinformatics
+**Group 8** — Final Project, Bioinformatics
 
 ---
 
